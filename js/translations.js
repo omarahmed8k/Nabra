@@ -1,6 +1,7 @@
 const translations = {
   en: {
     lang: "English",
+    title: "Nabra",
     home: "Home",
     about: "About",
     services: "Services",
@@ -14,6 +15,7 @@ const translations = {
   ar: {
     lang: "عربي",
     home: "الرئيسية",
+    title: "نبرة",
     about: "نحن",
     services: "خدماتنا",
     projects: "مشاريعنا",

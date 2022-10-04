@@ -1,6 +1,6 @@
 import translations from "./translations.js";
 
-const languageSelector = document.querySelector("select");
+const languageSelector = document.querySelector(".language-selector");
 languageSelector.addEventListener("change", (event) => {
   setLanguage(event.target.value);
   localStorage.setItem("lang", event.target.value);

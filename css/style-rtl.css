@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "gess-regular";
+  src: url(../fonts/gess-regular.ttf);
+}
+
+[dir="rtl"] * {
+  letter-spacing: 0 !important;
+  font-family: "gess-regular" !important;
+}
+
+[dir="rtl"] .row {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .services-list h4:after,
+[dir="rtl"] .wave-awards h3:after {
+  left: unset;
+  right: 0;
+}
+
+[dir="rtl"] .col-sm-1,
+[dir="rtl"] .col-sm-10,
+[dir="rtl"] .col-sm-11,
+[dir="rtl"] .col-sm-12,
+[dir="rtl"] .col-sm-2,
+[dir="rtl"] .col-sm-3,
+[dir="rtl"] .col-sm-4,
+[dir="rtl"] .col-sm-5,
+[dir="rtl"] .col-sm-6,
+[dir="rtl"] .col-sm-7,
+[dir="rtl"] .col-sm-8,
+[dir="rtl"] .col-sm-9 {
+  float: right;
+}
+
+[dir="rtl"] footer .sub-footer .copyright {
+  float: right;
+}
+
+[dir="rtl"] footer .sub-footer ul {
+  float: left;
+}
