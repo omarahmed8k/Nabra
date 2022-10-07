@@ -1,6 +1,7 @@
 const translations = {
   en: {
     lang: "English",
+    language: "Language",
     title: "Nabra",
     home: "Home",
     about: "About",
@@ -11,9 +12,19 @@ const translations = {
     selectLanguage: "Select a language",
     english: "English",
     arabic: "Arabic",
+    nagran: "Nagran",
+    fisal: "Fisal",
+    aqra: "Aqra",
+    bazzar: "Bazzar",
+    avocado: "Avocado",
+    sand: "Sand",
+    nafa: "Nafa",
+    wafarna: "Wafarna",
+    leader: "Leader",
   },
   ar: {
     lang: "عربي",
+    language: "اللغة",
     home: "الرئيسية",
     title: "نبرة",
     about: "نحن",
@@ -24,6 +35,15 @@ const translations = {
     selectLanguage: "إختر لغة",
     english: "الانجليزية",
     arabic: "العربية",
+    nagran: "نجران",
+    fisal: "فيصل",
+    aqra: "أقرة",
+    bazzar: "بازار",
+    avocado: "أفوكادو",
+    sand: "رمل",
+    nafa: "نافا",
+    wafarna: "وفرنا",
+    leader: "القائد",
   },
 };
 

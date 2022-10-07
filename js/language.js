@@ -4,6 +4,7 @@ const languageSelector = document.querySelector(".language-selector");
 languageSelector.addEventListener("change", (event) => {
   setLanguage(event.target.value);
   localStorage.setItem("lang", event.target.value);
+  window.location.reload();
 });
 
 document.addEventListener("DOMContentLoaded", () => {

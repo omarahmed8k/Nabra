@@ -33,10 +33,64 @@
   float: right;
 }
 
+[dir="rtl"] .hamburger-menu {
+  float: left;
+}
+
+[dir="rtl"] .navbar-default .logo {
+  float: right;
+}
+
 [dir="rtl"] footer .sub-footer .copyright {
   float: right;
 }
 
 [dir="rtl"] footer .sub-footer ul {
   float: left;
+}
+
+[dir="rtl"] #swipebox-container {
+  direction: ltr;
+}
+
+[dir="rtl"] .wave-things h4:after {
+  left: unset;
+  right: 0;
+}
+
+[dir="rtl"] .process .numbers {
+  float: right;
+  margin-right: unset;
+  padding-right: unset;
+  border-right: unset;
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 1px dotted #666;
+}
+
+[dir="rtl"] .logos h4:after {
+  left: unset;
+  right: 0;
+}
+
+[dir="rtl"] .services-list ul li:before {
+  float: right;
+  margin-right: unset;
+  margin-left: 10px;
+}
+
+[dir="rtl"] .services i:after {
+  left: unset;
+  right: 0;
+}
+
+[dir="rtl"] .features-list ul li:before {
+  float: right;
+  margin-right: unset;
+  margin-left: 10px;
+}
+
+[dir="rtl"] .contact-info h3:after {
+  left: unset;
+  right: 0;
 }

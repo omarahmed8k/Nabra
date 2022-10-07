@@ -1,96 +1,96 @@
 // JavaScript for wave
-(function($) {
-$(document).ready(function() {
-	"use strict";
-	
-	
-		// Scroll down opacity
-		var divs = $('.slider-inner');
-		$(window).on('scroll', function() {
-		var st = $(this).scrollTop();
-		divs.css({ 'opacity' : (1 - st/700) });
-		});
-		
-		
-		
+(function ($) {
+  $(document).ready(function () {
+    "use strict";
 
-		// Litebox
-		$( '.swipebox' ).swipebox();
-	
-	
-	
-		// Parallax effect
-		$.stellar({
-			horizontalScrolling: false,
-			verticalOffset: 0,
-			responsive:true
-		});
-			
-			
-	
-		// Counter
-		$('.counter').counterUp({
-            delay: 10,
-            time: 1000
-        });		
-	
-	
-	
-		// Hamburger Menu
-		$('.hamburger-menu').on('click', function(e) {
-		$(".hamburger-menu").toggleClass("menu-open");
-		$(".navigation").toggleClass("show-me");
-		$(".navigation ul li").toggleClass("show-me");
-		});
-	
-	
-	
-		// Page transition
-		$('.transition').on('click', function(e) {
-      	$('.transition-overlay').toggleClass("show-me");
-	    });
-		
-		
-		// Transition delay
-		$('.transition').on('click', function(e) {
-    	e.preventDefault();                  
-    	var goTo = this.getAttribute("href"); 
-		setTimeout(function(){
-         window.location = goTo;
-    	},1000);       
-		}); 
-		
-		
-		
-		// Hide Fixed Slider
-		$(window).on("scroll touchmove", function () {
-		$('.slider .slider-inner').toggleClass('hide', $(document).scrollTop() > 1500);
-		});
-	
+    // Scroll down opacity
+    var divs = $(".slider-inner");
+    $(window).on("scroll", function () {
+      var st = $(this).scrollTop();
+      divs.css({ opacity: 1 - st / 700 });
+    });
 
-		});
-	
-		
-		// Wow animations
-		wow = new WOW(
-      	{
-       		animateClass: 'animated',
-        	offset:       50
-      	}
-    	);
-    	wow.init();
-		
-		
-		
-		
-		// Masonry
-		$(window).load(function(){
-		var $container = $('.portfolio-masonry');
-		$container.masonry({
-		  columnWidth: 0,
-		  itemSelector: '.portfolio-masonry li'
-		});
-		});
-	
-		
-	})(jQuery);
+    // Litebox
+    $(".swipebox").swipebox();
+
+    // Parallax effect
+    $.stellar({
+      horizontalScrolling: false,
+      verticalOffset: 0,
+      responsive: true,
+    });
+
+    // Counter
+    $(".counter").counterUp({
+      delay: 10,
+      time: 1000,
+    });
+
+    // Hamburger Menu
+    $(".hamburger-menu").on("click", function (e) {
+      $(".hamburger-menu").toggleClass("menu-open");
+      $(".navigation").toggleClass("show-me");
+      $(".navigation ul li").toggleClass("show-me");
+    });
+
+    // Page transition
+    $(".transition").on("click", function (e) {
+      $(".transition-overlay").toggleClass("show-me");
+    });
+
+    // Transition delay
+    $(".transition").on("click", function (e) {
+      e.preventDefault();
+      var goTo = this.getAttribute("href");
+      setTimeout(function () {
+        window.location = goTo;
+      }, 1000);
+    });
+
+    // Hide Fixed Slider
+    $(window).on("scroll touchmove", function () {
+      $(".slider .slider-inner").toggleClass(
+        "hide",
+        $(document).scrollTop() > 1500
+      );
+    });
+
+    // Owl Carousel
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: false,
+      dots: false,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 3,
+        },
+        1000: {
+          items: 5,
+        },
+      },
+    });
+  });
+
+  // Wow animations
+  wow = new WOW({
+    animateClass: "animated",
+    offset: 50,
+  });
+  wow.init();
+
+  // Masonry
+  $(window).load(function () {
+    var $container = $(".portfolio-masonry");
+    $container.masonry({
+      columnWidth: 0,
+      itemSelector: ".portfolio-masonry li",
+    });
+  });
+})(jQuery);
