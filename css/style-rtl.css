@@ -94,3 +94,12 @@
   left: unset;
   right: 0;
 }
+
+[dir="rtl"] .project-detail h4:after {
+  left: unset;
+  right: 0;
+}
+
+[dir="rtl"] .owl-carousel {
+  direction: ltr;
+}

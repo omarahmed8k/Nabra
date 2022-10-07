@@ -1262,7 +1262,7 @@ footer {
 .about-wave h3:after {
   content: "";
   width: 50px;
-  height: 1px;
+  height: 2px;
   background: #501454;
   position: absolute;
   left: 0;
@@ -1378,7 +1378,7 @@ footer {
 .contact-info h3:after {
   content: "";
   width: 50px;
-  height: 1px;
+  height: 2px;
   background: #501454;
   position: absolute;
   left: 0;
@@ -1397,7 +1397,7 @@ footer {
 .contact-info h4:after {
   content: "";
   width: 50px;
-  height: 1px;
+  height: 2px;
   background: #501454;
   position: absolute;
   right: 0;
@@ -1499,7 +1499,7 @@ footer {
 .career h4:after {
   content: "";
   width: 50px;
-  height: 1px;
+  height: 2px;
   background: #501454;
   position: absolute;
   left: 0;
@@ -1611,7 +1611,7 @@ footer {
 .features-list ul li:before {
   content: "";
   width: 6px;
-  height: 1px;
+  height: 2px;
   background: #501454;
   float: left;
   margin-top: 10px;
@@ -1712,7 +1712,7 @@ footer {
 .services-list ul li:before {
   content: "";
   width: 6px;
-  height: 1px;
+  height: 2px;
   background: #501454;
   float: left;
   margin-top: 10px;
@@ -1737,7 +1737,7 @@ footer {
 .project-detail h4:after {
   content: "";
   width: 50px;
-  height: 1px;
+  height: 2px;
   background: #501454;
   position: absolute;
   left: 0;
@@ -1826,7 +1826,7 @@ footer {
 .wave-things h4:after {
   content: "";
   width: 50px;
-  height: 1px;
+  height: 2px;
   background: #501454;
   position: absolute;
   left: 0;
@@ -1857,7 +1857,7 @@ footer {
 .logos h4:after {
   content: "";
   width: 50px;
-  height: 1px;
+  height: 2px;
   background: #501454;
   position: absolute;
   left: 0;
