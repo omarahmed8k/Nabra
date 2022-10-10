@@ -564,18 +564,18 @@ footer {
   float: left;
   padding-top: 40px;
   padding-bottom: 200px;
-  background: #1d1d1d;
+  background: #501454;
 }
 
 .showcase h2 {
-  color: #cbcbc9;
+  color: #ffffff;
   font-size: 90px;
   font-family: jaapokki;
   margin: 0;
 }
 
 .showcase h5 {
-  color: #cbcbc9;
+  color: #ffffff;
   font-size: 15px;
   font-weight: 800;
   letter-spacing: 2px;
@@ -679,7 +679,11 @@ footer {
 }
 
 .bg-color4 {
-  background: rgba(20, 208, 179, 0.6);
+  background: #14d0b399;
+}
+
+.bg-color5 {
+  background: #50145499;
 }
 
 /* NAVBAR */
@@ -948,7 +952,7 @@ footer {
 
 .navigation nav ul li a {
   font-size: 30px;
-  letter-spacing: 20px;
+  letter-spacing: 10px;
   color: #fff;
   font-family: jaapokki;
 }
@@ -1011,14 +1015,24 @@ footer {
 .slider h2 {
   font-size: 100px;
   color: #fff;
-  letter-spacing: 20px;
+  letter-spacing: 3px;
+  text-align: center;
 }
 
 .slider h5 {
-  font-size: 20px;
+  font-size: 28px;
   color: #fff;
   font-family: jaapokki;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.slider p {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  font-family: jaapokki;
+  letter-spacing: 1px;
 }
 
 .slider .video-bg {
@@ -1293,7 +1307,7 @@ footer {
 .quote {
   width: 100%;
   float: left;
-  background: #1d1d1d;
+  background: #501454;
 }
 
 .quote .columms {
@@ -1338,17 +1352,17 @@ footer {
   font-weight: 100;
   margin-bottom: 40px;
   padding: 0 10%;
-  font-size: 29px;
+  font-size: 38px;
 }
 
 .quote .columms h3 {
   color: #fff;
   font-family: jaapokki;
-  font-size: 19px;
+  font-size: 22px;
 }
 
 .quote .background-image {
-  background: url(../images/image3.jpg) no-repeat;
+  background: url(../images/img.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -1973,7 +1987,7 @@ footer {
 footer {
   width: 100%;
   float: left;
-  background: #1d1d1d;
+  background: #501454;
   color: #fff;
   position: fixed;
   bottom: 0;
@@ -2006,7 +2020,7 @@ footer .sub-footer .copyright {
   float: left;
   font-size: 12px;
   font-weight: 700;
-  color: #999;
+  color: #fff;
 }
 
 footer .sub-footer ul {
@@ -2022,7 +2036,7 @@ footer .sub-footer ul li a {
   float: left;
   font-size: 12px;
   font-weight: 700;
-  color: #666;
+  color: #fff;
 }
 
 @media only screen and (max-width: 989px),
@@ -2140,4 +2154,9 @@ select.language-selector {
   -moz-appearance: none;
   -webkit-appearance: none;
   text-align: center;
+  z-index: 999999999;
+}
+
+.main-color {
+  color: #501454 !important;
 }
