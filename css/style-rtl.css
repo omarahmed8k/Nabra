@@ -39,6 +39,7 @@
 
 [dir="rtl"] .navbar-default .logo {
   float: right;
+  background-image: url(../images/logo-ar.svg);
 }
 
 [dir="rtl"] footer .sub-footer .copyright {
@@ -102,4 +103,8 @@
 
 [dir="rtl"] .owl-carousel {
   direction: ltr;
+}
+
+[dir="rtl"] footer .logo-footer {
+  background-image: url(../images/logo-ar-white.svg);
 }

@@ -56,7 +56,7 @@
     });
 
     // Owl Carousel
-    $(".owl-carousel").owlCarousel({
+    $(".clients").owlCarousel({
       loop: true,
       margin: 10,
       nav: false,

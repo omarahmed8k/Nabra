@@ -35,18 +35,17 @@
 
   <!-- CSS FILES -->
   <link href="css/main.css" rel="stylesheet" />
-  <link href="css/style-rtl.css" rel="stylesheet" />
 </head>
 
 <body>
+  <select class="language-selector">
+    <option value="0" data-i18n="language" selected></option>
+    <option value="en" data-i18n="english"></option>
+    <option value="ar" data-i18n="arabic"></option>
+  </select>
   <div class="loading">
     <div class="loader">
-      <h2 class="loading-text cd-headline clip is-full-width">
-        <span class="cd-words-wrapper">
-          <b class="is-visible" data-i18n="lang"></b>
-          <b data-i18n="lang"></b>
-        </span>
-      </h2>
+      <h2 class="loading-text cd-headline clip is-full-width" data-i18n="nabra"></h2>
       <div class="loading-image">
         <img src="images/loading.gif" alt="Image" />
       </div>
@@ -89,14 +88,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <select class="language-selector">
-            <option value="0" data-i18n="language" selected></option>
-            <option value="en" data-i18n="english"></option>
-            <option value="ar" data-i18n="arabic"></option>
-          </select>
-        </div>
-        <div class="col-xs-12">
-          <a href="#"><img src="images/logo-ar.svg" alt="Image" class="logo" /></a>
+          <div class="logo"></div>
           <div class="hamburger-menu">
             <span></span> <span></span> <span></span> <span></span>
           </div>
@@ -112,9 +104,9 @@
     <div class="table">
       <div class="inner">
         <div class="container">
-          <h3>creAtive platfOrm</h3>
-          <p>We are the creative design agency that brings ambitious brands to the next level by transforming their
-            digital business environment.</p>
+          <h3 data-i18n="slogan"></h3>
+          <h5 data-i18n="sloganText1"></h5>
+          <p data-i18n="sloganSubText"></p>
           <img src="images/icon-mouse.png" alt="Image">
         </div>
         <!-- end container -->
@@ -251,96 +243,119 @@
       <!-- end columms -->
     </section>
     <!-- end quote -->
-    <section class="team-members wow fadeInUp" data-wow-delay="0.5s">
+    <section class="wave-awards wow fadeInUp" data-wow-delay="0.5s">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 member">
-            <div class="member-info">
-              <h3>JESSICA MCLOREN</h3>
-              <span>CREATIVE COPYWRITER</span>
-            </div>
-            <!-- end member-info -->
-            <figure> <img src="images/team-member1.jpg" alt="Image"> </figure>
+          <div class="col-md-4 col-sm-12">
+            <h3 data-i18n="clients"></h3>
+            <p data-i18n="clientsText"></p>
           </div>
           <!-- end col-4 -->
-          <div class="col-md-4 member">
-            <div class="member-info">
-              <h3>CHRIS WILLAM</h3>
-              <span>CREATIVE ART DIRECTOR</span>
+          <div class="col-md-8 col-sm-12">
+            <div class="row">
+              <div class="col-md-12">
+                <!-- owl carousal -->
+                <div class="clients owl-carousel owl-theme">
+                  <div class="item">
+                    <img src="images/clients/1.png" alt="Image" />
+                    <!-- end table -->
+                  </div>
+                  <!-- end item -->
+                  <div class="item">
+                    <img src="images/clients/2.png" alt="Image" />
+                    <!-- end table -->
+                  </div>
+                  <!-- end item -->
+                  <div class="item">
+                    <img src="images/clients/3.png" alt="Image" />
+                    <!-- end table -->
+                  </div>
+                  <!-- end item -->
+                  <div class="item">
+                    <img src="images/clients/4.png" alt="Image" />
+                    <!-- end table -->
+                  </div>
+                  <!-- end item -->
+                  <div class="item">
+                    <img src="images/clients/5.png" alt="Image" />
+                    <!-- end table -->
+                  </div>
+                  <!-- end item -->
+                  <div class="item">
+                    <img src="images/clients/6.png" alt="Image" />
+                    <!-- end table -->
+                  </div>
+                  <!-- end item -->
+                  <div class="item">
+                    <img src="images/clients/7.png" alt="Image" />
+                    <!-- end table -->
+                  </div>
+                  <!-- end item -->
+                  <div class="item">
+                    <img src="images/clients/8.png" alt="Image" />
+                  </div>
+                  <!-- end item -->
+                  <div class="item">
+                    <img src="images/clients/9.png" alt="Image" />
+                  </div>
+                  <!-- end item -->
+                  <div class="item">
+                    <img src="images/clients/10.png" alt="Image" />
+                  </div>
+                  <!-- end item -->
+                  <div class="item">
+                    <img src="images/clients/11.png" alt="Image" />
+                  </div>
+                  <!-- end item -->
+                  <div class="item">
+                    <img src="images/clients/12.png" alt="Image" />
+                  </div>
+                  <!-- end item -->
+                  <div class="item">
+                    <img src="images/clients/13.png" alt="Image" />
+                  </div>
+                  <!-- end item -->
+                  <div class="item">
+                    <img src="images/clients/14.png" alt="Image" />
+                  </div>
+                  <!-- end item -->
+                  <div class="item">
+                    <img src="images/clients/15.png" alt="Image" />
+                  </div>
+                </div>
+                <!-- end col-12 -->
+              </div>
+              <!-- end row -->
             </div>
-            <!-- end member-info -->
-            <figure> <img src="images/team-member2.jpg" alt="Image"> </figure>
+            <!-- end col-8 -->
           </div>
-          <!-- end col-4 -->
-          <div class="col-md-4 member">
-            <div class="member-info">
-              <h3>MELISSA CARTER</h3>
-              <span>FRONT-END DEVELOPER</span>
-            </div>
-            <!-- end member-info -->
-            <figure> <img src="images/team-member3.jpg" alt="Image"> </figure>
-          </div>
-          <!-- end col-4 -->
+          <!-- end row -->
         </div>
-        <!-- end row -->
-      </div>
-      <!-- end containe -->
+        <!-- end container -->
     </section>
-    <!-- end team-members -->
-    <section class="logos">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h4>HAPPY CLIENTS</h4>
-            <p>We create digital experiences for brands communicating the unique services provided to your customers.
-              Creativity for us something personal</p>
-          </div>
-          <!-- end col-4 -->
-          <div class="col-sm-8">
-            <ul>
-              <li>
-                <figure><img src="images/logo1.jpg" alt="Image"> </figure>
-              </li>
-              <li>
-                <figure><img src="images/logo2.jpg" alt="Image"> </figure>
-              </li>
-              <li>
-                <figure><img src="images/logo3.jpg" alt="Image"> </figure>
-              </li>
-              <li>
-                <figure><img src="images/logo4.jpg" alt="Image"> </figure>
-              </li>
-              <li>
-                <figure><img src="images/logo5.jpg" alt="Image"> </figure>
-              </li>
-              <li>
-                <figure><img src="images/logo6.jpg" alt="Image"> </figure>
-              </li>
-
-            </ul>
-          </div>
-          <!-- end col-8 -->
-        </div>
-        <!-- end row -->
-      </div>
-      <!-- end container -->
-    </section>
+    <!-- end wave-awards -->
   </main>
   <div class="footer-space"></div>
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 text-center"> <img src="images/logo.png" alt="Image" class="logo">
-          <h3>WE ARE A DIGITAL AGENCY</h3>
+        <div class="col-xs-12 text-center">
+          <div class="logo-footer"></div>
+          <h3 data-i18n="slogan"></h3>
         </div>
         <!-- end col-12 -->
         <div class="col-xs-12">
-          <div class="sub-footer"> <span class="copyright">© 2015 Wave | Agency & Freelancer Portfolio</span>
+          <div class="sub-footer">
+            <span class="copyright" data-i18n="rights"></span>
             <ul>
-              <li> <a href="contact.html">Contact Us</a></li>
-              <li> <a href="career.html">Career</a></li>
-              <li> <a href="http://www.dribble.com" target="_blank">Dribble</a></li>
-              <li> <a href="http://www.behance.net" target="_blank">Behance</a></li>
+              <li><a href="http://www.facebook.com" data-i18n="facebook"></a></li>
+              <li><a href="http://www.instagram.com" data-i18n="instagram"></a></li>
+              <li>
+                <a href="http://www.dribble.com" target="_blank" data-i18n="dribble"></a>
+              </li>
+              <li>
+                <a href="http://www.behance.net" target="_blank" data-i18n="behance"></a>
+              </li>
             </ul>
           </div>
           <!-- end sub-footer -->
@@ -356,17 +371,18 @@
   <!-- JS FILES -->
   <script src="js/jquery.min.js"></script>
   <script type="text/javascript">
-(function($) {
-	$(window).load(function(){
-		$(".loading .loading-image").addClass("dissappear");
-		$(".loading .loading-text").addClass("dissappear");
-		$(".int-header").addClass("goes-up");
-		$(".navbar-default").addClass("show");
-		$('.loading').delay(1000).addClass("fade-out");	
-	});
+    (function ($) {
+      $(window).load(function () {
+        $(".loading .loading-image").addClass("dissappear");
+        $(".loading .loading-text").addClass("dissappear");
+        $(".int-header").addClass("goes-up");
+        $(".navbar-default").addClass("show");
+        $('.loading').delay(1000).addClass("fade-out");
+      });
     })(jQuery);
   </script>
   <script defer src="js/language.js" type="module"></script>
+  <script src="js/owl.carousel.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/waypoints.min.js"></script>
   <script src="js/jquery.counterup.min.js"></script>
