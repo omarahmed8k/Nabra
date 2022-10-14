@@ -108,3 +108,23 @@
 [dir="rtl"] footer .logo-footer {
   background-image: url(../images/logo-ar-white.svg);
 }
+
+[dir="rtl"] .contact-info h4:after {
+  left: unset;
+  right: 0;
+}
+
+[dir="rtl"] .col-md-1,
+[dir="rtl"] .col-md-10,
+[dir="rtl"] .col-md-11,
+[dir="rtl"] .col-md-12,
+[dir="rtl"] .col-md-2,
+[dir="rtl"] .col-md-3,
+[dir="rtl"] .col-md-4,
+[dir="rtl"] .col-md-5,
+[dir="rtl"] .col-md-6,
+[dir="rtl"] .col-md-7,
+[dir="rtl"] .col-md-8,
+[dir="rtl"] .col-md-9 {
+  float: right;
+}

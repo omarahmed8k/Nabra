@@ -304,36 +304,13 @@ u {
 }
 
 /* FORM ELEMENTS */
-input[type="text"] {
+input {
   width: 220px;
   height: 40px;
   display: inline-block;
   border: 1px solid #ccc;
   padding: 0 15px;
-}
-
-input[type="tel"] {
-  width: 220px;
-  height: 40px;
-  display: inline-block;
-  border: 1px solid #ccc;
-  padding: 0 15px;
-}
-
-input[type="email"] {
-  width: 220px;
-  height: 40px;
-  display: inline-block;
-  border: 1px solid #ccc;
-  padding: 0 15px;
-}
-
-input[type="password"] {
-  width: 220px;
-  height: 40px;
-  display: inline-block;
-  border: 1px solid #ccc;
-  padding: 0 15px;
+  text-align: start;
 }
 
 button[type="submit"] {
@@ -359,6 +336,7 @@ button[type="button"] {
 label {
   font-weight: normal;
   letter-spacing: 2px;
+  text-align: start;
 }
 
 textarea {
@@ -367,12 +345,13 @@ textarea {
   display: inline-block;
   border: 1px solid #ccc;
   padding: 15px;
+  text-align: start;
 }
 
-.form-group {
+/* .form-group {
   width: 100%;
   float: left;
-}
+} */
 
 /* TABLE MIDDLE */
 .table {
@@ -1395,7 +1374,7 @@ footer {
 .contact-info {
   width: 100%;
   float: left;
-  padding: 100px 0;
+  padding-top: 100px;
 }
 
 .contact-info h3 {
@@ -1424,6 +1403,7 @@ footer {
   margin-top: 0;
   margin-bottom: 40px;
   position: relative;
+  text-align: start;
 }
 
 .contact-info h4:after {
@@ -1432,7 +1412,7 @@ footer {
   height: 2px;
   background: #501454;
   position: absolute;
-  right: 0;
+  left: 0;
   bottom: -22px;
 }
 
@@ -1442,6 +1422,7 @@ footer {
   letter-spacing: 2px;
   font-size: 13px;
   font-weight: 300;
+  text-align: start;
 }
 
 .contact-info img {
@@ -1467,10 +1448,10 @@ footer {
   text-align: center;
 }
 
-.contact-form .form-group {
+/* .contact-form .form-group {
   width: 100%;
   float: left;
-}
+} */
 
 .contact-form label {
   width: 100%;
@@ -1478,14 +1459,19 @@ footer {
   font-weight: normal;
 }
 
-.contact-form input[type="text"] {
+.contact-form input {
   width: 100%;
-  max-width: 400px;
+  height: 40px;
 }
 
 .contact-form textarea {
   width: 100%;
-  max-width: 520px;
+}
+
+.contact-form button {
+  width: 50%;
+  height: 50px;
+  margin-top: 15px;
 }
 
 .contact-form .alert {
@@ -1669,6 +1655,7 @@ footer {
 .services h4 {
   font-family: "Playfair Display", serif;
   font-size: 18px;
+  margin-top: 20px;
   margin-bottom: 20px;
   letter-spacing: 2px;
 }
@@ -2212,4 +2199,37 @@ select.language-selector {
 .main-color {
   color: #501454 !important;
   filter: drop-shadow(2px 4px 2px #50145499) !important;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  z-index: 99999999999;
+  border-radius: 50%;
+  overflow: hidden;
+  animation-name: whatsapp;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  filter: drop-shadow(2px 4px 6px #29a729);
+}
+
+.whatsapp img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@keyframes whatsapp {
+  0% {
+    transform: scale(1);
+    filter: drop-shadow(2px 3px 6px #29a729);
+  }
+  100% {
+    transform: scale(0.95);
+    filter: drop-shadow(0px -2px 6px #29a729);
+  }
 }
