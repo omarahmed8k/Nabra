@@ -1212,6 +1212,7 @@ footer {
   font-weight: 800;
   letter-spacing: 2px;
   text-transform: uppercase;
+  line-height: 2;
 }
 
 .title-box .shape {
@@ -1653,13 +1654,19 @@ footer {
 }
 
 .services h4 {
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
+  font-family: jaapokki;
+  text-align: center;
   font-size: 18px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
   letter-spacing: 2px;
 }
 
+.services img {
+  display: block;
+  margin: 0 auto;
+}
 .services i {
   font-size: 40px;
   margin-bottom: 30px;
@@ -1725,7 +1732,8 @@ footer {
   font-size: 14px;
   margin-bottom: 40px;
   position: relative;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .services-list h4:after {
