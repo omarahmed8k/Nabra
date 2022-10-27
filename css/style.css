@@ -2158,6 +2158,11 @@ footer .sub-footer ul li a {
   .slider h2 {
     font-size: 40px;
     letter-spacing: 10px;
+    white-space: normal;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    text-align: center;
   }
 
   .int-header p {
@@ -2191,6 +2196,18 @@ footer .sub-footer ul li a {
   footer .sub-footer ul {
     float: left;
     margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer .sub-footer ul li {
+    margin: 0;
+  }
+  footer .sub-footer .copyright {
+    width: 100%;
+    display: block;
+    text-align: center;
   }
 }
 
@@ -2251,4 +2268,28 @@ select.language-selector {
 .wave-things .title-box h5 {
   text-align: start;
   line-height: 2;
+}
+
+@media (max-width: 992px) {
+  .slider h5 {
+    top: 100px;
+  }
+  .wave-awards h3:after{
+    right: unset;
+    left: 50%;
+    margin: 0;
+    transform: translateX(-50%);
+  }
+  .tp-caption img{
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .whatsapp {
+    bottom: 75px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+  }
 }
