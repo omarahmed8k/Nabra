@@ -1856,6 +1856,7 @@ footer {
 }
 
 .process .numbers {
+  width: 50px;
   font-size: 50px;
   color: #fff;
   float: left;
@@ -1870,7 +1871,7 @@ footer {
   color: #fff;
   margin: 0;
   font-size: 22px;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
 .process p {
@@ -2218,6 +2219,15 @@ footer .sub-footer ul li a {
     width: 100%;
     display: block;
     text-align: center;
+  }
+  .contact-info span {
+    float: unset;
+    display: block;
+    text-align: start;
+  }
+
+  form {
+    margin-top: 50px;
   }
 }
 

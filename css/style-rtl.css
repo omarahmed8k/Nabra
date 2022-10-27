@@ -69,6 +69,10 @@
   border-left: 1px dotted #666;
 }
 
+[dir="rtl"] .process .steps {
+  margin-top: 15px;
+}
+
 [dir="rtl"] .logos h4:after {
   left: unset;
   right: 0;
