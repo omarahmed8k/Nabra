@@ -1483,10 +1483,18 @@ footer {
   width: 100%;
 }
 
-.contact-form button {
+.contact-form input[type="submit"] {
   width: 50%;
   height: 50px;
   margin-top: 15px;
+  text-align: center;
+  background-color: #501454;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
 }
 
 .contact-form .alert {
