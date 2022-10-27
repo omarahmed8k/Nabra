@@ -240,6 +240,16 @@ theme.
   font-style: normal;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #501454;
+}
+::-webkit-scrollbar-track {
+  background: #555;
+}
+
 * {
   outline: none;
 }
@@ -247,7 +257,7 @@ theme.
 body {
   margin: 0;
   padding: 0;
-  background: #1d1d1d;
+  background: #501454;
   color: #1d1d1d;
   font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -2274,13 +2284,13 @@ select.language-selector {
   .slider h5 {
     top: 100px;
   }
-  .wave-awards h3:after{
+  .wave-awards h3:after {
     right: unset;
     left: 50%;
     margin: 0;
     transform: translateX(-50%);
   }
-  .tp-caption img{
+  .tp-caption img {
     display: none;
   }
 }

@@ -136,6 +136,36 @@ const translations = {
       "Your message was sent successfully! We will be in touch as soon as we can",
     sendFaild:
       "Something went wrong, try refreshing and submitting the form again",
+    aboutTitle: "About Us",
+    aboutText:
+      "Nabra is a full-service digital agency that handles your business from the idea stage on. We are experienced in creating complex solutions for clients of all sizes, and we use our expertise to make sure your business is always operating at its best.",
+    aboutCardTitle1: "Values",
+    aboutCardText1: "Honesty, Patience and appreciation",
+    aboutCardTitle2: "Vision",
+    aboutCardText2:
+      "Delivering measurable results to clients, employees, and vendors",
+    aboutCardTitle3: "Mission",
+    aboutCardText3:
+      "Provide the best customer results possible and deliver the WOW factor through our services",
+    processTitle: "Process",
+    processText:
+      "Having a new business idea or looking for one .. contact us to help you create your own Nabra.",
+    processCardTitle1: "PLANNING",
+    processCardText1: "Your Vision",
+    processCardTitle2: "DEVELOPING",
+    processCardText2: "Your Brands",
+    processCardTitle3: "CREATEING",
+    processCardText3: "Your Content",
+    processCardTitle4: "MANAGEING",
+    processCardText4: "All digital marketing needs",
+    graphicTitle: "Unique ideas need creative execution",
+    graphicText1:
+      "At Nabra, we believe that every connection has the potential to be the start of something great. That's why we take a human centered approach to design and development",
+    graphicText2:
+      "we believe that if you create products and services that people love, they'll spread the word and help you grow exponentially",
+    blockquote:
+      "Success depends upon previous preparation, and without such preparation there is sure to be failure.",
+    blockquoteTitle: "CONFUCIUS",
   },
   ar: {
     lang: "عربي",
@@ -270,6 +300,35 @@ const translations = {
     send: "ارسال",
     sendSuccess: "لقد تم ارسال رسالتك بنجاح! سنكون على اتصال بأسرع ما يمكن",
     sendFaild: "حدث خطأ ما ، حاول تحديث النموذج وإرساله مرة أخرى",
+    aboutTitle: "عن نبرة",
+    aboutText:
+      "نبرة هي وكالة اعلانية تقدم خدمات متكاملة في الحلول التسويقية و التقنية نتميز بخبراتنا الواسعة في مجال تقديم حلول لعملاؤنا بمختلف احجام اعمالهم .. و نستطيع باستخدام خبراتنا الواسعة اعطاء الفرصة لعملك , نشاطك التجاري , او متجرك ان يعمل بكامل طاقته و بافضل شكل ممكن",
+    aboutCardTitle1: "قيمنا",
+    aboutCardText1: "الصدق والصبر والتقدير",
+    aboutCardTitle2: "رؤيتنا",
+    aboutCardText2: "تقديم نتائج قابلة للقياس للعملاء والموظفين والموردين",
+    aboutCardTitle3: "مهمتنا",
+    aboutCardText3:
+      "تقديم أفضل النتائج الممكنة للعملاء وتقديم عامل النجاح من خلال خدماتنا",
+    processTitle: "العمليات",
+    processText:
+      "لديك فكرة عمل جديدة أو تبحث عن فكرة .. اتصل بنا لمساعدتك في إنشاء النبرة الخاصة بك.",
+    processCardTitle1: "تخطيط",
+    processCardText1: "رؤيتك",
+    processCardTitle2: "تصميم",
+    processCardText2: "هويتك",
+    processCardTitle3: "تطوير",
+    processCardText3: "محتواك",
+    processCardTitle4: "تسويق",
+    processCardText4: "منتجك",
+    graphicTitle: "الأفكار الفريدة تحتاج إلى تنفيذ إبداعي",
+    graphicText1:
+      "نعمل في نبرة علي ان نصنع لك نبرة مختلفة و مميزة عن منافسيك حتي تضمن مكانة مختلفة في السوق كما تساعد نبرة الشركات الناشئة ورواد الاعمال في دراسة السوق المستهدف لأستكشاف الفرص و الفجوات الموجودة في السوق و اقتراح افكار العمال بناءً علي تلك الدراسة",
+    graphicText2:
+      "نعتقد أنه إذا قمت بإنشاء منتجات وخدمات يحبها الناس ، فسوف ينشرون منتجاتك ويساعدونك على النمو بشكل كبير",
+    blockquote:
+      "يعتمد النجاح على التحضير السابق ، وبدون هذا الإعداد يكون هناك بالتأكيد فشل.",
+    blockquoteTitle: "كونفوشيوس",
   },
 };
 
