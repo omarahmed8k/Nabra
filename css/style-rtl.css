@@ -134,4 +134,14 @@
   [dir="rtl"] .col-md-12 {
     width: 100%;
   }
+  [dir="rtl"] .services-list h4:after,
+  [dir="rtl"] .wave-awards h3:after {
+    right: unset;
+    left: 50%;
+    margin: 0;
+    transform: translateX(-50%);
+  }
+  .wave-awards h3 {
+    text-align: center;
+  }
 }

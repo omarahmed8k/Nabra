@@ -1362,6 +1362,7 @@ footer {
 .quote .background-image {
   background: url(../images/img.png) no-repeat;
   background-size: cover;
+  background-position: top center;
 }
 
 /* GOOGLE MAPS */
@@ -1600,7 +1601,7 @@ footer {
 .wave-awards img {
   height: 55px;
   margin-top: 26px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .wave-awards p {
