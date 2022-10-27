@@ -2326,3 +2326,7 @@ select.language-selector {
     height: 40px;
   }
 }
+.contact-form .alert {
+  justify-content: center;
+  align-items: center;
+}

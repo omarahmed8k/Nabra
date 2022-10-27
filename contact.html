@@ -280,11 +280,17 @@
         event.preventDefault();
         emailjs.sendForm('service_5ww82vd', 'template_7gri8gk', this)
           .then(function () {
-            alert('SUCCESS!');
             document.getElementById('contact').reset();
+            document.getElementById('success').style.display = 'flex';
+            setTimeout(function () {
+              document.getElementById('success').style.display = 'none';
+            }, 5000);
           }, function (error) {
             document.getElementById('contact').reset();
-            alert('FAILED...', error);
+            document.getElementById('success').style.display = 'flex';
+            setTimeout(function () {
+              document.getElementById('success').style.display = 'none';
+            }, 5000);
           });
       });
     }

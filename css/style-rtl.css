@@ -78,6 +78,8 @@
   right: 0;
 }
 
+
+
 [dir="rtl"] .services-list ul li:before {
   float: right;
   margin-right: unset;
