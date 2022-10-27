@@ -837,7 +837,7 @@ footer {
   position: fixed;
   top: 0;
   left: 0;
-  background: #1d1d1d;
+  background: #501454;
   z-index: 4;
   opacity: 0;
   visibility: hidden;
@@ -1212,6 +1212,7 @@ footer {
   font-weight: 800;
   letter-spacing: 2px;
   text-transform: uppercase;
+  color: #fff;
   line-height: 2;
 }
 
@@ -1818,7 +1819,7 @@ footer {
 .process {
   width: 100%;
   float: left;
-  background: #1d1d1d;
+  background: #501454;
   padding: 100px 0;
   position: relative;
   overflow: hidden;
@@ -1839,7 +1840,7 @@ footer {
 }
 
 .process .title-box {
-  color: #cbcbc9;
+  color: #fff;
 }
 
 .process .numbers {
@@ -1849,7 +1850,7 @@ footer {
   font-family: jaapokki;
   margin-right: 10px;
   padding-right: 10px;
-  border-right: 1px dotted #666;
+  border-right: 1px dotted #fff;
 }
 
 .process .steps {
@@ -1861,7 +1862,7 @@ footer {
 }
 
 .process p {
-  color: #666;
+  color: #fff;
 }
 
 /* WAVE THINGS */
