@@ -13,7 +13,7 @@ const translations = {
     selectLanguage: "Select a language",
     english: "English",
     arabic: "Arabic",
-    fisal: "Ebdaa",
+    fisal: "Jeddah Creativity Award",
     aqra: "Aqra",
     bazzar: "Bazzar Gate",
     avocado: "Avocado",
@@ -26,7 +26,7 @@ const translations = {
     study: "Ministry Of Education",
     iso: "Iso Tech",
     caja: "Caja",
-    art: "Art",
+    art: "Art Max",
     char: "Charactars",
     slogan: "Hear the sound of success",
     sloganText1: "Ideas Worth money",
@@ -42,11 +42,11 @@ const translations = {
     service2: "DESIGN",
     service3: "STRATEGY",
     serviceText1:
-      "All great products marry exceptional design with solid execution. We're insatiably curious about what's next in technology, but we will always strive to pick the right tools for the job.",
+      "All great products marry exceptional design with solid execution We're insatiably curious about what's next in technology, but we will always strive to pick the right tools for the job",
     serviceText2:
-      "One of our values as company is 'Beauty in Simplicity' because we love making things simple, intuitive and expertly crafted. Foremost to that is an exceptional user experience.",
+      "One of our values as company is 'Beauty in Simplicity' because we love making things simple, intuitive and expertly crafted Foremost to that is an exceptional user experience",
     serviceText3:
-      "Product is the vital essence of what we do, and truly great product is born of meticulous planning and process. This is where we specialise, taking a lean & agile approach to product creation.",
+      "Product is the vital essence of what we do, and truly great product is born of meticulous planning and process This is where we specialise, taking a lean & agile approach to product creation",
     clients: "Clients",
     clientsText:
       "We are proud to work with some of the world's most innovative companies",
@@ -57,28 +57,28 @@ const translations = {
     dribble: "Dribble",
     serviceCard1: "Market Research",
     serviceCard1Text:
-      "We believe that there are always ways to improve things, and we're always looking for opportunities to do so.",
+      "We believe that there are always ways to improve things, and we're always looking for opportunities to do so",
     serviceCard2: "Branding",
     serviceCard2Text:
-      "Branding is what sets you apart from your competition. It’s what makes people remember you and why they keep coming back for more.",
+      "Branding is what sets you apart from your competition It’s what makes people remember you and why they keep coming back for more",
     serviceCard3: "Web & App Development",
     serviceCard3Text:
-      "We know that every business is unique, and we want to help you bring your ideas to life in a way that's tailored to your needs.",
+      "We know that every business is unique, and we want to help you bring your ideas to life in a way that's tailored to your needs",
     serviceCard4: "Strategic Planning",
     serviceCard4Text:
-      "As a multi-disciplined team at Nabra we’re able to effectively communicate your brand in various environments across a multitude of media channels.",
+      "As a multi-disciplined team at Nabra we’re able to effectively communicate your brand in various environments across a multitude of media channels",
     serviceCard5: "Social media marketing",
     serviceCard5Text:
-      "Our team possesses the technical knowledge, skills, and creativity to transform chosen social media channels into rewarding marketing channelsWe create, curate, and publish social media content.",
+      "Our team possesses the technical knowledge, skills, and creativity to transform chosen social media channels into rewarding marketing channelsWe create, curate, and publish social media content",
     serviceCard6: "E-Commerce",
     serviceCard6Text:
-      "We offer customized e-commerce solutions for creating a profitable e-commerce store.",
+      "We offer customized e-commerce solutions for creating a profitable e-commerce store",
     serviceCard7: "Motion graphic - Video Editing",
     serviceCard7Text:
       "We offer affordable effective video marketing solutions developed to connect and communicate with your business current and potential customers",
     serviceCard8: "DATA ANALYTICS",
     serviceCard8Text:
-      "The right content, in the right place, at the right time. We continuously gather, organize, and enrich data.",
+      "The right content, in the right place, at the right time We continuously gather, organize, and enrich data",
     featuresCard1: "BRANDING",
     featuresCard2: "DIGITAL COMMERCE",
     featuresCard3: "VISUAL IDENTITY",
@@ -91,7 +91,7 @@ const translations = {
     featuresCard10: "MOTION GRAPHIC",
     featuresCard11: "PRODUCING",
     featuresCard12: "PRINTING",
-    featuresTitle: ".features",
+    featuresTitle: "features",
     featuresText: "We have a passion for building products that will shape",
     featuresList1: "Digital Strategy",
     featuresList2: "Creative Consulting",
@@ -115,17 +115,17 @@ const translations = {
     featuresList20: "User testing &amp; research",
     contactTitle: "CONTACT INFOS",
     contactText:
-      "Drop by for a coffee or leave us a message the unique services provided to your customers. Creativity for us something personal",
+      "Drop by for a coffee or leave us a message the unique services provided to your customers Creativity for us something personal",
     contactAddress: "ADDRESS",
     contactAddressText:
       "Kuwait, Hawally, Alshamiya, Alshamiya, Block 1, Building 1, 1st Floor, Office 1",
     contactPhone: "PHONES",
     contactPhoneText: "+96550291498",
     contactEmail: "E-MAIL",
-    contactEmailText: "info@nabra-adv.com",
-    contactFormTitle: ".say hello",
+    contactEmailText: "info@nabra-advcom",
+    contactFormTitle: "say hello",
     contactFormText:
-      "How can we help or assist you. We have a passion for building",
+      "How can we help or assist you We have a passion for building",
     name: "Name",
     email: "E-Mail",
     phone: "Phone",
@@ -133,9 +133,9 @@ const translations = {
     subject: "Subject",
     send: "SEND",
     sendSuccess:
-      "Your message was sent successfully! We will be in touch as soon as we can.",
+      "Your message was sent successfully! We will be in touch as soon as we can",
     sendFaild:
-      "Something went wrong, try refreshing and submitting the form again.",
+      "Something went wrong, try refreshing and submitting the form again",
   },
   ar: {
     lang: "عربي",
@@ -151,7 +151,7 @@ const translations = {
     selectLanguage: "إختر لغة",
     english: "الانجليزية",
     arabic: "العربية",
-    fisal: "ابداع",
+    fisal: "جائزة جدة للأبداع",
     aqra: "أقرأ",
     bazzar: "بازار جيت",
     avocado: "أفوكادو",
@@ -164,7 +164,7 @@ const translations = {
     study: "وزارة التعليم",
     iso: "ايزو تك",
     caja: "ساجا",
-    art: "الرسومات الفنية",
+    art: "ارت ماكس",
     char: "الشخصيات",
     slogan: "اسمع صوت النجاح",
     sloganText1: " الأفكار تستحق المال",
@@ -172,18 +172,18 @@ const translations = {
     sloganText3: "العين على الجائزة",
     sloganText4: "ما تريده موجود",
     sloganSubText: "حلول الأعمال الإلكترونية",
-    projectsTitle: "المشاريع الأهم",
+    projectsTitle: "من مشاريعنا",
     projectsText: "محفظة إبداعية",
     nabra: "نبرة",
     service1: "التطوير",
     service2: "التصميم",
     service3: "الخطة",
     serviceText1:
-      "جميع المنتجات الرائعة تتزاوج بين التصميم الاستثنائي والتنفيذ القوي. نحن نشعر بالفضول الشديد لمعرفة الخطوة التالية في مجال التكنولوجيا ، لكننا سنسعى دائمًا لاختيار الأدوات المناسبة للوظيفة.",
+      "جميع المنتجات الرائعة تتزاوج بين التصميم الاستثنائي والتنفيذ القوي نحن نشعر بالفضول الشديد لمعرفة الخطوة التالية في مجال التكنولوجيا ، لكننا سنسعى دائمًا لاختيار الأدوات المناسبة للوظيفة",
     serviceText2:
-      "إحدى قيمنا كشركة هي 'الجمال في البساطة' لأننا نحب أن نجعل الأشياء بسيطة وبديهية ومصممة بخبرة. قبل كل شيء هو تجربة مستخدم استثنائية.",
+      "إحدى قيمنا كشركة هي 'الجمال في البساطة' لأننا نحب أن نجعل الأشياء بسيطة وبديهية ومصممة بخبرة قبل كل شيء هو تجربة مستخدم استثنائية",
     serviceText3:
-      "المنتج هو الجوهر الحيوي لما نقوم به ، والمنتج الرائع حقًا يولد من التخطيط الدقيق والعملية. هذا هو المكان الذي نتخصص فيه ، مع اتباع نهج رشيق ورشيق لإنشاء المنتج.",
+      "المنتج هو الجوهر الحيوي لما نقوم به ، والمنتج الرائع حقًا يولد من التخطيط الدقيق والعملية هذا هو المكان الذي نتخصص فيه ، مع اتباع نهج رشيق ورشيق لإنشاء المنتج",
     clients: "عملائنا و شركائنا",
     clientsText: "نحن فخورون بالعمل مع بعض الشركات الأكثر ابتكارًا في العالم",
     rights: "جميع الحقوق محفوظة © 2022",
@@ -214,7 +214,7 @@ const translations = {
       "نوفر حلول وخدمات التسويق عبرالفيديو موشن جرافيك المتنوعة الفعالة من حيث زيادة نسبة تفاعل العملاء وملائمة لمختلف أنواع الحملات التسويقية وإلاعلانية",
     serviceCard8: "تحليل البيانات",
     serviceCard8Text:
-      "المحتوى المناسب، في المكان المناسب، في الوقت المناسب. نقوم بجمع البيانات وتنظيمها وإثرائها باستمرار. نقوم بتحسين المحتوى والحملات التسويقية والصفحات بناًء علي بحوث العمليات لقياس الاداء",
+      "المحتوى المناسب، في المكان المناسب، في الوقت المناسب نقوم بجمع البيانات وتنظيمها وإثرائها باستمرار نقوم بتحسين المحتوى والحملات التسويقية والصفحات بناًء علي بحوث العمليات لقياس الاداء",
     featuresCard1: "العلامات التجارية",
     featuresCard2: "التجارة الرقمية",
     featuresCard3: "الهوية المرئية",
@@ -227,7 +227,7 @@ const translations = {
     featuresCard10: "السوم المتحركة",
     featuresCard11: "إنتاج",
     featuresCard12: "طباعة",
-    featuresTitle: ".الميزات",
+    featuresTitle: "الميزات",
     featuresText: "لدينا شغف لبناء منتجاتكم وتطويرها",
     featuresList1: "الإستراتيجية الرقمية",
     featuresList2: "استشارات إبداعية",
@@ -251,15 +251,15 @@ const translations = {
     featuresList20: "بحث اختبار المستخدم",
     contactTitle: "معلومات الاتصال",
     contactText:
-      "تفضل بتناول القهوة أو اترك لنا رسالة عن الخدمات الفريدة المقدمة لعملائك. الإبداع بالنسبة لنا شيء شخصي",
+      "تفضل بتناول القهوة أو اترك لنا رسالة عن الخدمات الفريدة المقدمة لعملائك الإبداع بالنسبة لنا شيء شخصي",
     contactAddress: "عنوان",
     contactAddressText:
       "الكويت ، حولي ، الشامية ، الشامية ، قطعة 1 ، مبنى 1 ، الطابق الأول ، مكتب 1",
     contactPhone: "الهاتف",
     contactPhoneText: "+96550291498",
     contactEmail: "البريد الإلكتروني",
-    contactEmailText: "info@nabra-adv.com",
-    contactFormTitle: "قل مرحبا",
+    contactEmailText: "info@nabra-advcom",
+    contactFormTitle: "مرحبا",
     contactFormText:
       "كيف يمكننا مساعدتك أو مساعدتك لدينا شغف لبناء منتجاتكم وتطويرها",
     name: "الاسم",

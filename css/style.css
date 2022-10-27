@@ -224,7 +224,8 @@ theme.
 /* GOOGLE FOTNS */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900&subset=latin,latin-ext);
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic&subset=latin,latin-ext);
-
+/* fontawesome */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css);
 @font-face {
   font-family: "jaapokki";
   src: url("../fonts/jaapokkienchance-regular-webfont.eot");
@@ -1012,6 +1013,8 @@ footer {
   margin-bottom: 30px;
   font-family: "jaapokki";
   filter: drop-shadow(2px 4px 2px #501454);
+  position: relative;
+  top: -50px;
 }
 
 .slider p {
@@ -2052,7 +2055,7 @@ footer .logo-footer {
 }
 
 footer h3 {
-  font-size: 40px;
+  font-size: 30px;
   font-family: jaapokki;
   text-transform: uppercase;
   margin-bottom: 100px;
@@ -2204,6 +2207,7 @@ select.language-selector {
   -webkit-appearance: none;
   text-align: center;
   z-index: 999999999;
+  box-shadow: 1px 1px 5px #ffffff20;
 }
 
 .main-color {
