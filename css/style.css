@@ -2054,7 +2054,7 @@ footer .logo-footer {
 }
 
 footer h3 {
-  font-size: 30px;
+  font-size: 25px;
   font-family: jaapokki;
   text-transform: uppercase;
   margin-bottom: 100px;
@@ -2247,6 +2247,8 @@ select.language-selector {
   }
 }
 
-.w-100 {
-  width: 100%;
+.wave-things .title-box h2,
+.wave-things .title-box h5 {
+  text-align: start;
+  line-height: 2;
 }
