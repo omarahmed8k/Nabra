@@ -1496,6 +1496,11 @@ footer {
   border: none;
   outline: none;
 }
+.contact-form button {
+  width: 50%;
+  height: 50px;
+  margin-top: 15px;
+}
 
 .contact-form .alert {
   width: 100%;
