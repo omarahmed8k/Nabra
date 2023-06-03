@@ -126,10 +126,13 @@ const translations = {
     contactText:
       "Drop by for a coffee or leave us a message the unique services provided to your customers Creativity for us something personal",
     contactAddress: "ADDRESS",
-    contactAddressText:
-      "Kuwait, Hawally, Alshamiya, Alshamiya, Block 1, Building 1, 1st Floor, Office 1",
+    contactAddressText1:
+      "Hawally, Kuwait",
+    contactAddressText2:
+      "Alexandria, Egypt",
     contactPhone: "PHONES",
-    contactPhoneText: "+96550291498",
+    contactPhoneText1: "+96550291498",
+    contactPhoneText2: "+201200833076",
     contactEmail: "E-MAIL",
     contactEmailText: "info@nabra-advcom",
     contactFormTitle: "say hello",
@@ -175,6 +178,7 @@ const translations = {
     blockquote:
       "Success depends upon previous preparation, and without such preparation there is sure to be failure.",
     blockquoteTitle: "CONFUCIUS",
+    americanSchools: "American Schools Click Here",
   },
   ar: {
     lang: "عربي",
@@ -347,6 +351,7 @@ const translations = {
     blockquote:
       "يعتمد النجاح على التحضير السابق ، وبدون هذا الإعداد يكون هناك بالتأكيد فشل.",
     blockquoteTitle: "كونفوشيوس",
+    americanSchools: "المدارس الأمريكية اضغط هنا",
   },
 };
 

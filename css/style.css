@@ -1025,6 +1025,7 @@ footer {
   filter: drop-shadow(2px 4px 2px #501454);
   position: relative;
   top: -50px;
+  text-align: center;
 }
 
 .slider p {
@@ -2329,4 +2330,24 @@ select.language-selector {
 .contact-form .alert {
   justify-content: center;
   align-items: center;
+}
+
+.main-btn {
+  display: block;
+  background: #501454;
+  color: #fff;
+  font-family: jaapokki;
+  border: none;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  text-decoration: none !important;
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  .main-btn {
+    position: relative;
+    top: 200px;
+  }
 }
