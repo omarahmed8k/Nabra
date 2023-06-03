@@ -178,7 +178,17 @@ const translations = {
     blockquote:
       "Success depends upon previous preparation, and without such preparation there is sure to be failure.",
     blockquoteTitle: "CONFUCIUS",
-    americanSchools: "American Schools Click Here",
+    schools: "Schools Click Here",
+    select: "Select",
+    personal: "Personal",
+    studio: "Studio",
+    type: "Type",
+    schoolName: "School Name",
+    schoolFormText: "Please fill out the form below to get started",
+    schoolFormTitle: "Schools Form",
+    schoolTitle: "Select Your School",
+    schoolText: "We are proud to be the official photographers for the following schools",
+    americanSchool: "American School",
   },
   ar: {
     lang: "عربي",
@@ -351,7 +361,15 @@ const translations = {
     blockquote:
       "يعتمد النجاح على التحضير السابق ، وبدون هذا الإعداد يكون هناك بالتأكيد فشل.",
     blockquoteTitle: "كونفوشيوس",
-    americanSchools: "المدارس الأمريكية اضغط هنا",
+    schools: "للمدارس اضغط هنا",
+    select: "اختر",
+    personal: "شخصي",
+    studio: "ستوديو",
+    type: "النوع",
+    schoolName: "اسم المدرسة",
+    schoolFormTitle: "نموذج المدارس",
+    schoolFormText: "من فضلك املأ النموذج التالي",
+    americanSchool: "المدرسة الأمريكية",
   },
 };
 

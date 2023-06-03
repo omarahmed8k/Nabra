@@ -324,6 +324,13 @@ input {
   text-align: start;
 }
 
+select {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 0 15px;
+  text-align: start;
+}
+
 button[type="submit"] {
   height: 40px;
   display: inline-block;
@@ -790,6 +797,10 @@ footer {
   display: block;
   position: absolute;
   left: 0;
+}
+
+.schools-page .hamburger-menu span {
+  background: #501454;
 }
 
 .hamburger-menu span {
@@ -1464,6 +1475,10 @@ footer {
   text-align: center;
 }
 
+.schools-page .contact-form {
+  padding-top: 200px;
+}
+
 /* .contact-form .form-group {
   width: 100%;
   float: left;
@@ -1475,7 +1490,8 @@ footer {
   font-weight: normal;
 }
 
-.contact-form input {
+.contact-form input,
+.contact-form select {
   width: 100%;
   height: 40px;
 }
@@ -2345,9 +2361,57 @@ select.language-selector {
   font-size: 18px;
 }
 
+.schools-page form .required::after {
+  content: "*";
+  color: red;
+}
+
 @media (max-width: 767px) {
   .main-btn {
     position: relative;
     top: 200px;
   }
+}
+
+.schools-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+}
+
+.schools-logo a {
+  position: relative;
+  width: 100%;
+  max-width: 200px;
+  padding: 20px;
+}
+
+.schools-logo a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #50145425;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transition: all ease-in-out 0.3s;
+  font-size: 22px;
+  opacity: 0;
+}
+
+.schools-logo a:hover::after {
+  opacity: 0.5;
+}
+
+.schools-logo a img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }

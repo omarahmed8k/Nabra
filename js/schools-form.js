@@ -1,23 +1,21 @@
 jQuery(document).ready(function ($) {
     "use strict";
-    // Contact form
     $(function () {
-        $("#contact").validate({
+        $("#schools").validate({
             rules: {
                 name: {
                     required: true,
                 },
                 email: {
-                    required: true,
                     email: true
                 },
                 phone: {
                     required: true
                 },
-                subject: {
+                type: {
                     required: true
                 },
-                message: {
+                schoolName: {
                     required: true
                 }
             },
@@ -25,17 +23,14 @@ jQuery(document).ready(function ($) {
                 name: {
                     required: "Please type your name",
                 },
-                email: {
-                    required: "Please type your e-mail correctly"
-                },
                 phone: {
-                    required: "Please type your phone correctly",
+                    required: "Please type your phone",
                 },
-                subject: {
-                    required: "Please type about subject",
+                type: {
+                    required: "Please select photo type",
                 },
-                message: {
-                    required: "Please type your message",
+                schoolName: {
+                    required: "Please type your school name",
                 }
             },
         });
