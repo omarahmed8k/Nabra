@@ -147,6 +147,29 @@
                 </select>
               </div>
               <!-- end form-group -->
+              <div class="form-group col-md-6 col-xs-12">
+                <label class="required" data-i18n="studio"></label>
+                <div class="form-group col-md-6 col-xs-12 form-images">
+                  <input type="checkbox" name="studio" value="1">
+                  <img src="./images/school1/1.jpg" alt="">
+                </div>
+                <div class="form-group col-md-6 col-xs-12 form-images">
+                  <input type="checkbox" name="studio" value="2">
+                  <img src="./images/school1/2.jpg" alt="">
+                </div>
+              </div>
+              <div class="form-group col-md-6 col-xs-12">
+                <label class="required" data-i18n="personal"></label>
+                <div class="form-group col-md-6 col-xs-12 form-images">
+                  <input type="checkbox" name="personal" value="3">
+                  <img src="./images/school1/3.jpg" alt="">
+                </div>
+                <div class="form-group col-md-6 col-xs-12 form-images">
+                  <input type="checkbox" name="personal" value="4">
+                  <img src="./images/school1/4.jpg" alt="">
+                </div>
+              </div>
+              <!-- end form-group -->
               <div class="form-group">
                 <button id="submit" type="submit" name="submit" data-i18n="send"></button>
                 <!-- <input type="submit" value="Send"> -->
@@ -227,7 +250,6 @@
     window.onload = function () {
       let schoolName = localStorage.getItem('school')
       document.getElementById('schoolName').value = schoolName || 'defualt'
-      
       document.getElementById('schools').addEventListener('submit', function (event) {
         event.preventDefault();
         let lang = localStorage.getItem('lang')
@@ -239,8 +261,22 @@
         let phone = form.phone.value;
         let type = form.type.value;
         let schoolName = form.schoolName.value;
+        let studio = form.studio;
+        let personal = form.personal;
+        let studioValue = []
+        let personalValue = []
+        for (let i = 0; i < studio.length; i++) {
+          if (studio[i].checked) {
+            studioValue.push(studio[i].value)
+          }
+        }
+        for (let i = 0; i < personal.length; i++) {
+          if (personal[i].checked) {
+            personalValue.push(personal[i].value)
+          }
+        }
 
-        if (name && phone && type !== "defualt" && schoolName !== "defualt"){
+        if (name && phone && type !== "defualt" && schoolName !== "defualt" && (studioValue.length > 0 || personalValue.length > 0)) {
         form.style.display = 'none';
         emailjs.sendForm('service_5ww82vd', 'template_deoa8l9', this).then(function (res) {
           localStorage.removeItem('school')
