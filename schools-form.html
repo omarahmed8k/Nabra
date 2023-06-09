@@ -136,18 +136,16 @@
                   <option value="defualt" data-i18n="select" selected disabled></option>
                   <option value="personal" data-i18n="personal"></option>
                   <option value="studio" data-i18n="studio"></option>
+                  <option value="personal-studio" data-i18n="both"></option>
                 </select>
               </div>
               <!-- end form-group -->
               <div class="form-group col-md-12 col-xs-12">
                 <label class="required" data-i18n="schoolName"></label>
-                <select name="schoolName" id="schoolName" required>
-                  <option value="defualt" data-i18n="select" selected disabled></option>
-                  <option value="American School" data-i18n="americanSchool"></option>
-                </select>
+                <input type="text" name="schoolName" id="schoolName" required />
               </div>
               <!-- end form-group -->
-              <div class="form-group col-md-6 col-xs-12">
+              <!-- <div class="form-group col-md-6 col-xs-12">
                 <label class="required" data-i18n="studio"></label>
                 <div class="form-group col-md-6 col-xs-12 form-images">
                   <input type="checkbox" name="studio" value="1">
@@ -168,7 +166,7 @@
                   <input type="checkbox" name="personal" value="4">
                   <img src="./images/school1/4.jpg" alt="">
                 </div>
-              </div>
+              </div> -->
               <!-- end form-group -->
               <div class="form-group">
                 <button id="submit" type="submit" name="submit" data-i18n="send"></button>
@@ -240,16 +238,16 @@
   <!-- end footer -->
 
   <!-- JS FILES -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript" src="./js/email.js"></script>
   <script type="text/javascript">
     (function () {
-      emailjs.init('6qBY81VOKqJXjwdW0');
+      emailjs.init('LmBZfXFUF6yW9fVew');
     })();
   </script>
   <script type="text/javascript">
     window.onload = function () {
-      let schoolName = localStorage.getItem('school')
-      document.getElementById('schoolName').value = schoolName || 'defualt'
+      // let schoolName = localStorage.getItem('school')
+      // document.getElementById('schoolName').value = schoolName || 'defualt'
       document.getElementById('schools').addEventListener('submit', function (event) {
         event.preventDefault();
         let lang = localStorage.getItem('lang')
@@ -261,25 +259,25 @@
         let phone = form.phone.value;
         let type = form.type.value;
         let schoolName = form.schoolName.value;
-        let studio = form.studio;
-        let personal = form.personal;
-        let studioValue = []
-        let personalValue = []
-        for (let i = 0; i < studio.length; i++) {
-          if (studio[i].checked) {
-            studioValue.push(studio[i].value)
-          }
-        }
-        for (let i = 0; i < personal.length; i++) {
-          if (personal[i].checked) {
-            personalValue.push(personal[i].value)
-          }
-        }
+        // let studio = form.studio;
+        // let personal = form.personal;
+        // let studioValue = []
+        // let personalValue = []
+        // for (let i = 0; i < studio.length; i++) {
+        //   if (studio[i].checked) {
+        //     studioValue.push(studio[i].value)
+        //   }
+        // }
+        // for (let i = 0; i < personal.length; i++) {
+        //   if (personal[i].checked) {
+        //     personalValue.push(personal[i].value)
+        //   }
+        // }
 
-        if (name && phone && type !== "defualt" && schoolName !== "defualt" && (studioValue.length > 0 || personalValue.length > 0)) {
+        if (name && phone && type !== "defualt" && schoolName !== "") {
         form.style.display = 'none';
         emailjs.sendForm('service_5ww82vd', 'template_deoa8l9', this).then(function (res) {
-          localStorage.removeItem('school')
+          // localStorage.removeItem('school')
           if (res.status === 200) {
             form.reset();
            successMsg.style.display = 'flex';
@@ -295,7 +293,7 @@
             }, 5000);
           }
           }, function (error) {
-            localStorage.removeItem('school')
+            // localStorage.removeItem('school')
             errorMsg.style.display = 'flex';
             setTimeout(function () {
               errorMsg.style.display = 'none';
