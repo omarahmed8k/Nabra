@@ -51,11 +51,11 @@ const translations = {
     service2: "DESIGN",
     service3: "STRATEGY",
     serviceText1:
-      "All great products marry exceptional design with solid execution We're insatiably curious about what's next in technology, but we will always strive to pick the right tools for the job",
+      "All great products combine exceptional design with solid execution We're insatiably curious about what's next in technology, but we will always strive to pick the right tools for the job.",
     serviceText2:
-      "One of our values as company is 'Beauty in Simplicity' because we love making things simple, intuitive and expertly crafted Foremost to that is an exceptional user experience",
+      "One of our values as a company is 'Beauty in Simplicity' because we love making things simple, intuitive and expertly crafted foremost to an exceptional user experience.",
     serviceText3:
-      "Product is the vital essence of what we do, and truly great product is born of meticulous planning and process This is where we specialise, taking a lean & agile approach to product creation",
+      "Product is the vital essence of what we do, and truly a great product is born of meticulous planning. This is where we specialise, taking a lean & agile approach to product creation.",
     clients: "Clients",
     clientsText:
       "We are proud to work with some of the world's most innovative companies",
@@ -69,7 +69,7 @@ const translations = {
       "We believe that there are always ways to improve things, and we're always looking for opportunities to do so",
     serviceCard2: "Branding",
     serviceCard2Text:
-      "Branding is what sets you apart from your competition It’s what makes people remember you and why they keep coming back for more",
+      "Branding is what distinguishes you from your competitors. It is what makes people remember you and keep coming for more.",
     serviceCard3: "Web & App Development",
     serviceCard3Text:
       "We know that every business is unique, and we want to help you bring your ideas to life in a way that's tailored to your needs",
@@ -78,16 +78,16 @@ const translations = {
       "As a multi-disciplined team at Nabra we’re able to effectively communicate your brand in various environments across a multitude of media channels",
     serviceCard5: "Social media marketing",
     serviceCard5Text:
-      "Our team possesses the technical knowledge, skills, and creativity to transform chosen social media channels into rewarding marketing channelsWe create, curate, and publish social media content",
+      "Our team possesses the technical knowledge, skills, and creativity to transform chosen social media channels into rewarding marketing channels. We create, curate, and publish social media content",
     serviceCard6: "E-Commerce",
     serviceCard6Text:
       "We offer customized e-commerce solutions for creating a profitable e-commerce store",
     serviceCard7: "Motion graphic - Video Editing",
     serviceCard7Text:
-      "We offer affordable effective video marketing solutions developed to connect and communicate with your business current and potential customers",
+      "We offer affordable and effective video marketing solutions tailored to help you get in touch with your current and potential customers.",
     serviceCard8: "DATA ANALYTICS",
     serviceCard8Text:
-      "The right content, in the right place, at the right time We continuously gather, organize, and enrich data",
+      "The right content, in the right place, at the right time. We continuously gather, organize, and enrich data",
     featuresCard1: "BRANDING",
     featuresCard2: "DIGITAL COMMERCE",
     featuresCard3: "VISUAL IDENTITY",
@@ -98,7 +98,7 @@ const translations = {
     featuresCard8: "SOFTWARE SOLUTIONS",
     featuresCard9: "VIDEO PRODUCTION",
     featuresCard10: "MOTION GRAPHIC",
-    featuresCard11: "PRODUCING",
+    featuresCard11: "PRODUCTION",
     featuresCard12: "PRINTING",
     featuresTitle: "features",
     featuresText: "We have a passion for building products that will shape",
@@ -124,20 +124,19 @@ const translations = {
     featuresList20: "User testing &amp; research",
     contactTitle: "CONTACT INFOS",
     contactText:
-      "Drop by for a coffee or leave us a message the unique services provided to your customers Creativity for us something personal",
+      "Drop by for a discussion over a cup of coffee or leave us a message and we will get back to you.",
     contactAddress: "ADDRESS",
-    contactAddressText1:
-      "Hawally, Kuwait",
-    contactAddressText2:
-      "Alexandria, Egypt",
+    contactAddressText1: "Hawally, Kuwait",
+    contactAddressText2: "Alexandria, Egypt",
+    contactAddressText3: "Our agent in Europe",
     contactPhone: "PHONES",
     contactPhoneText1: "+96550291498",
     contactPhoneText2: "+201200833076",
     contactEmail: "E-MAIL",
-    contactEmailText: "info@nabra-advcom",
+    contactEmailText: "info@nabra-adv.com",
+    contactEmailText2: "basilalnuman@nabra-adv.com",
     contactFormTitle: "say hello",
-    contactFormText:
-      "How can we help or assist you We have a passion for building",
+    contactFormText: "How can we assist you today.",
     name: "Name",
     email: "E-Mail",
     phone: "Phone",
@@ -150,7 +149,7 @@ const translations = {
       "Something went wrong, try refreshing and submitting the form again",
     aboutTitle: "About Us",
     aboutText:
-      "Nabra is a full-service digital agency that handles your business from the idea stage on. We are experienced in creating complex solutions for clients of all sizes, and we use our expertise to make sure your business is always operating at its best.",
+      "Nabra is a full-service digital agency that handles your business from the idea level and onwards. We are experienced in creating complex solutions for clients of all sizes, and we use our expertise to make sure your business is always operating at its best.",
     aboutCardTitle1: "Values",
     aboutCardText1: "Honesty, Patience and appreciation",
     aboutCardTitle2: "Vision",
@@ -161,7 +160,7 @@ const translations = {
       "Provide the best customer results possible and deliver the WOW factor through our services",
     processTitle: "Process",
     processText:
-      "Having a new business idea or looking for one .. contact us to help you create your own Nabra.",
+      "Having a new business idea or looking for one ? ... contact us to help you create your own Nabra.",
     processCardTitle1: "PLANNING",
     processCardText1: "Your Vision",
     processCardTitle2: "DEVELOPING",
@@ -176,7 +175,7 @@ const translations = {
     graphicText2:
       "we believe that if you create products and services that people love, they'll spread the word and help you grow exponentially",
     blockquote:
-      "Success depends upon previous preparation, and without such preparation there is sure to be failure.",
+      "Success depends on preparation.",
     blockquoteTitle: "CONFUCIUS",
     schools: "Schools Click Here",
     select: "Select",
@@ -316,12 +315,15 @@ const translations = {
     contactText:
       "تفضل بتناول القهوة أو اترك لنا رسالة عن الخدمات الفريدة المقدمة لعملائك الإبداع بالنسبة لنا شيء شخصي",
     contactAddress: "عنوان",
-    contactAddressText:
-      "الكويت ، حولي ، الشامية ، الشامية ، قطعة 1 ، مبنى 1 ، الطابق الأول ، مكتب 1",
+    contactAddressText1: "الكويت ، حولي",
+    contactAddressText2: "مصر ، الاسكندرية",
+    contactAddressText3: "اوروبا",
     contactPhone: "الهاتف",
-    contactPhoneText: "+96550291498",
+    contactPhoneText1: "+96550291498",
+    contactPhoneText2: "+201200833076",
     contactEmail: "البريد الإلكتروني",
     contactEmailText: "info@nabra-advcom",
+    contactEmailText2: "basilalnuman@nabra-adv.com",
     contactFormTitle: "مرحبا",
     contactFormText:
       "كيف يمكننا مساعدتك أو مساعدتك لدينا شغف لبناء منتجاتكم وتطويرها",
