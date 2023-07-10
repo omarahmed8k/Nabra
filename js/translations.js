@@ -53,7 +53,7 @@ const translations = {
     serviceText1:
       "All great products combine exceptional design with solid execution. We're insatiably curious about what's next in technology, but we will always strive to pick the right tools for the job.",
     serviceText2:
-      "One of our values as a company is 'Beauty in Simplicity' because we love making things simple, intuitive and expertly crafted foremost to an exceptional user experience.",
+      "One of our values as a company is 'Beauty in Simplicity' because we love making things simple, intuitive and expertly crafted for an exceptionally unique experience.",
     serviceText3:
       "Product is the vital essence of what we do, and truly a great product is born of meticulous planning. This is where we specialise, taking a lean & agile approach to product creation.",
     clients: "Clients",
