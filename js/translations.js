@@ -302,7 +302,7 @@ const translations = {
     featuresCard7: "دعم استراتيجي",
     featuresCard8: "حلول البرمجيات",
     featuresCard9: "انتاج الفيديو",
-    featuresCard10: "السوم المتحركة",
+    featuresCard10: "الرسوم المتحركة",
     featuresCard11: "إنتاج",
     featuresCard12: "طباعة",
     featuresTitle: "الميزات",
