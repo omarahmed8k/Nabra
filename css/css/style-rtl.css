@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "gess-regular";
+  src: url(../fonts/gess-regular.ttf);
+}
+
+[dir="rtl"] * {
+  letter-spacing: 0 !important;
+  font-family: "gess-regular" !important;
+}
+
+[dir="rtl"] .row {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .services-list h4:after,
+[dir="rtl"] .wave-awards h3:after {
+  left: unset;
+  right: 0;
+}
+
+[dir="rtl"] .col-sm-1,
+[dir="rtl"] .col-sm-10,
+[dir="rtl"] .col-sm-11,
+[dir="rtl"] .col-sm-12,
+[dir="rtl"] .col-sm-2,
+[dir="rtl"] .col-sm-3,
+[dir="rtl"] .col-sm-4,
+[dir="rtl"] .col-sm-5,
+[dir="rtl"] .col-sm-6,
+[dir="rtl"] .col-sm-7,
+[dir="rtl"] .col-sm-8,
+[dir="rtl"] .col-sm-9 {
+  float: right;
+}
+
+[dir="rtl"] .hamburger-menu {
+  float: left;
+}
+
+[dir="rtl"] .navbar-default .logo {
+  float: right;
+  background-image: url(../images/logo-ar.svg);
+}
+
+[dir="rtl"] footer .sub-footer .copyright {
+  float: right;
+}
+
+[dir="rtl"] footer .sub-footer ul {
+  float: left;
+}
+
+[dir="rtl"] #swipebox-container {
+  direction: ltr;
+}
+
+[dir="rtl"] .wave-things h4:after {
+  left: unset;
+  right: 0;
+}
+
+[dir="rtl"] .process .numbers {
+  float: right;
+  margin-right: unset;
+  padding-right: unset;
+  border-right: unset;
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 1px dotted #666;
+}
+
+[dir="rtl"] .process .steps {
+  margin-top: 15px;
+}
+
+[dir="rtl"] .logos h4:after {
+  left: unset;
+  right: 0;
+}
+
+
+
+[dir="rtl"] .services-list ul li:before {
+  float: right;
+  margin-right: unset;
+  margin-left: 10px;
+}
+
+[dir="rtl"] .services i:after {
+  left: unset;
+  right: 0;
+}
+
+[dir="rtl"] .features-list ul li:before {
+  float: right;
+  margin-right: unset;
+  margin-left: 10px;
+}
+
+[dir="rtl"] .contact-info h3:after {
+  left: unset;
+  right: 0;
+}
+
+[dir="rtl"] .project-detail h4:after {
+  left: unset;
+  right: 0;
+}
+
+[dir="rtl"] .owl-carousel {
+  direction: ltr;
+}
+
+[dir="rtl"] footer .logo-footer {
+  background-image: url(../images/logo-ar-white.svg);
+}
+
+[dir="rtl"] .contact-info h4:after {
+  left: unset;
+  right: 0;
+}
+
+[dir="rtl"] .col-md-1,
+[dir="rtl"] .col-md-10,
+[dir="rtl"] .col-md-11,
+[dir="rtl"] .col-md-12,
+[dir="rtl"] .col-md-2,
+[dir="rtl"] .col-md-3,
+[dir="rtl"] .col-md-4,
+[dir="rtl"] .col-md-5,
+[dir="rtl"] .col-md-6,
+[dir="rtl"] .col-md-7,
+[dir="rtl"] .col-md-8,
+[dir="rtl"] .col-md-9 {
+  float: right;
+}
+
+@media (max-width: 992px) {
+  [dir="rtl"] .col-sm-12,
+  [dir="rtl"] .col-md-12 {
+    width: 100%;
+  }
+  [dir="rtl"] .services-list h4:after,
+  [dir="rtl"] .wave-awards h3:after {
+    right: unset;
+    left: 50%;
+    margin: 0;
+    transform: translateX(-50%);
+  }
+  .wave-awards h3 {
+    text-align: center;
+  }
+}
